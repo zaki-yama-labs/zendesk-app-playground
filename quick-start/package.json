@@ -1,0 +1,16 @@
+{
+  "name": "zendesk-app-playground",
+  "version": "1.0.0",
+  "description": "[brief description of the app]",
+  "main": "index.js",
+  "scripts": {
+    "dev": "zcli apps:server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@zendesk/zcli": "^1.0.0-beta.38"
+  }
+}
