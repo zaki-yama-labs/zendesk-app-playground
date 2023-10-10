@@ -1,14 +1,3 @@
-# App name
+# Building your first Support app
 
-[brief description of the app]
-
-### The following information is displayed:
-
-* info1
-* info2
-* info3
-
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
-
-### Screenshot(s):
-[put your screenshots down here.]
+[Building your first Support app - Part 1: Laying the groundwork | Zendesk Developer Docs](https://developer.zendesk.com/documentation/apps/build-an-app/build-your-first-support-app/part-1-laying-the-groundwork/)
