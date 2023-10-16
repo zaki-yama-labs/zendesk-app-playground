@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock,npm/@zendeskgarden/css-buttons,npm/@zendeskgarden/css-forms,npm/@zendeskgarden/css-grid,npm/@zendeskgarden/css-utilities"
+    />
+    <form id="taskForm" class="container">
+      <div class="row c-txt">
+        <label for="task" class="col-12 c-txt__label">Task name</label>
+        <textarea
+          name="task"
+          id="task"
+          placeholder="Enter your task here"
+          class="col-10 c-txt__input c-txt__input--area is-resizable"
+        ></textarea>
+      </div>
+
+      <div class="row u-mt-sm">
+        <button id="submitTask" class="c-btn c-btn--primary">Submit</button>
+      </div>
+    </form>
+
+    <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

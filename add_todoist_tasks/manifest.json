@@ -1,0 +1,32 @@
+{
+  "name": "Add Todoist Tasks",
+  "author": {
+    "name": "Shingo Yamazaki",
+    "email": "shingoyamazaki00@gmail.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "token",
+      "type": "oauth"
+    }
+  ],
+  "oauth": {
+    "client_id": "CLIENT_ID",
+    "client_secret": "CLIENT_SECRET",
+    "authorize_uri": "https://todoist.com/oauth/authorize",
+    "access_token_uri": "https://todoist.com/oauth/access_token",
+    "scope": "data:read_write"
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
